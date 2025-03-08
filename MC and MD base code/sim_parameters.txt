@@ -1,0 +1,29 @@
+delimiter = 0
+
+nx int 8
+ny int 8
+nz int 8
+T double 2.0
+P double 3.838
+n double 0.3
+rho double 0.5
+rc double 2.5
+sigma double 1.0
+epsilon double 1.0
+totsteps long 800
+save_mgl_snapshot long 1000
+savemeasure long 1
+outstps long 200
+seed int -1
+n_iter int 1
+
+simtype int 1
+deltra double 0.1
+vmax double 10.0
+adjstps long 100
+maxadjstps long 2000
+eqstps long 0000
+
+algotype int 2
+mass double 1.0
+dt double 0.005
